@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fundamentals of C - Functions</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1em 2em;
+      text-align: center;
+    }
+    nav {
+      background-color: #e0e0e0;
+      padding: 0.5em 2em;
+    }
+    nav a {
+      margin-right: 1em;
+      text-decoration: none;
+      color: #003366;
+      font-weight: bold;
+    }
+    main {
+      padding: 2em;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    section {
+      margin-bottom: 2em;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Fundamentals of C Programming - Functions</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="ai_fdp.html">AI FDP</a>
+  <a href="c_intro.html">C Programming Intro</a>
+</nav>
+
+<main>
+  <section>
+    <h2>1. Introduction to Functions</h2>
+    <p>Functions are modular blocks of code designed to perform a specific task. They help reduce code redundancy and improve program structure.</p>
+  </section>
+
+  <section>
+    <h2>2. Need for Functions</h2>
+    <ul>
+      <li>Modularization of code</li>
+      <li>Reusability</li>
+      <li>Improved readability and maintainability</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Types of Functions</h2>
+    <ul>
+      <li>Library Functions (e.g., <code>printf()</code>, <code>scanf()</code>)</li>
+      <li>User-Defined Functions</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Structure of a Function</h2>
+    <p><strong>ReturnType FunctionName(Parameter List)</strong><br> {<br>&nbsp;&nbsp;&nbsp; // Body of the function<br> }</p>
+    <p>Example:<br><code>int sum(int a, int b) { return a + b; }</code></p>
+  </section>
+
+  <section>
+    <h2>5. Function Call and Declaration</h2>
+    <ul>
+      <li>Function Declaration: tells the compiler about the function's name and signature.</li>
+      <li>Function Call: invokes the function.</li>
+      <li>Function Definition: the actual body of the function.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Categories of Functions</h2>
+    <ul>
+      <li>No arguments, no return value</li>
+      <li>Arguments, no return value</li>
+      <li>No arguments, return value</li>
+      <li>Arguments and return value</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Example</h2>
+    <pre>
+#include &lt;stdio.h&gt;
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result = add(5, 3);
+    printf("Sum: %d", result);
+    return 0;
+}
+    </pre>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Fundamentals of C Programming | All rights reserved
+</footer>
+
+</body>
+</html>
